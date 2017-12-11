@@ -1,0 +1,2 @@
+
+.innerHTML = "<div class='item'><div class='item-vote'><img src='img/arrow.svg' alt='upvote' class='upvote'><p class='vote-num'>" + votevar + "</p><img src='img/arrow.svg' alt='downvote' class='downvote'></div><img src='" + imgsrc + "' class='item-img' alt=''><div class='item-center'><div class='item-left'><h3 class='item-name'>" + restaurant + "</h3><p class='item-desc'>" + desc + "</p></div><div class='item-right'><p class='item-distance-num'>0.3</p><p class='item-dist-end'>Miles</p></div></div></div>"

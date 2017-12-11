@@ -1,0 +1,60 @@
+<html lang="en">
+    <head>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/createDeal.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:900" rel="stylesheet">
+        <script  src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    </head>
+    <body>
+      <a href="index.html"><h1>Grubyr</h1></a>
+
+      <div class="grad"></div>
+
+      <div class="center">
+      <h2>Post your Deal</h2>
+        <div class="forms">
+
+          <div class="form-field half">
+            <input id="food" type="text" class="stateinput" required>
+            <label>RESTAURANT NAME</label>
+          </div>
+
+          <div class="form-field half">
+            <input id="address" type="text" class="stateinput" required>
+            <label>ADDRESS</label>
+          </div>
+
+          <div class="form-field half">
+            <input id="city" type="text" class="stateinput" required>
+            <label>CITY</label>
+          </div>
+
+          <div class="form-field half">
+            <input id="state" type="text" class="stateinput" required>
+            <label>STATE</label>
+          </div>
+
+          <div class="form-field half">
+            <input id="zip" type="text" class="stateinput" required>
+            <label>ZIP CODE</label>
+          </div>
+
+          <span class="fileup">
+            <span style="font-size: 18px; margin: 0;">&#8682;</span> Upload a Photo
+            <input type="file" id="file" />
+          </span>
+
+          <div class="form-field full">
+            <input id="deal" type="text" class="stateinput" required>
+            <label>DEAL DETAILS</label>
+          </div>
+
+        </div>
+
+          <button id="submit">Post Your Deal &#10548;</button>
+
+      </div>
+
+        <script src="js/createDeal.js" type="text/javascript"></script>
+    </body>
+</html>
